@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0F172A;
+}
+
+
+
+#text {
+  color: rgb(255, 255, 255, 0.70);
+  font-size: 15px;
+}
+
+#text a {
+  color: #818CF8
+}
+
+#paypal, #blik  , #transfer {
+  border-color: transparent ;
+  transition: 1s;
+}
+
+#arrow {
+    display: inline-block;
+    font-size: 25px;
+    color: #ffffff56;
+margin-top: 85px;
+margin-right: 280px;
+transition: 1s;
+}
+
+#arrow:hover {
+  color: #818CF8;
+
+}
+
+#valid {
+  background-color: #008000
+}
+
+#priceDiv {
+  font-size: 40px;
+
+}
+
+#productName {
+  font-size: 17px;
+}
+
+#productPrice {
+  font-size: 22px;
+}
+
+#textError{
+  position: fixed;
+  margin-top:767px;
+  color: red;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 15px;
+  }
+
+
+  #paypal , #blik , #transfer {
+    border-color: transparent
+  }
